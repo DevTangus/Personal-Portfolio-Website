@@ -21,11 +21,28 @@ nav {
 }
 .logo {
   color: white;
-   font-size: 38px;
-   letter-spacing: 1px;
-   cursor: pointer;
+  font-size: 38px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
-span{
+span {
   color: #f9004d;
-  
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 1s;
+}
+.btn{
+  background-color: #f9004d;
 }

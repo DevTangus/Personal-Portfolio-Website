@@ -106,7 +106,7 @@ h4 {
 .Aboutme {
   width: 100%;
   padding: 105px 0px;
-  background-color: #5c337d;
+  background-color: #250b3a;
 }
 .Aboutme image {
   height: auto;
@@ -161,4 +161,52 @@ button:hover {
   background-color: transparent;
   border: 3px solid #f9004d;
   cursor: pointer;
+}
+.services {
+  background: #031224;
+  width: 100%;
+  padding: 104px 0px;
+}
+.heading h2 {
+  color: #e1f5f0;
+  font-size: 78px;
+  width: 1135px;
+  text-align: center;
+  margin: 33px auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 410px;
+}
+.plate {
+  height: 370px;
+  width:330px ;
+  padding: 22px 37px;
+  background: #061a31;
+  border-radius: 23px;
+  margin: 17px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.plate i{
+  font-size: 53px;
+  display: block;
+  text-align: center;
+ margin: 27px 0px;
+ color: #34e75b;
+}
+h5 {
+  color: #e1f5f0;
+  font-size: 25px;
+  margin-bottom: 17px;
+
+}
+.para p{
+  color: #e1f5f0;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 27px;
 }

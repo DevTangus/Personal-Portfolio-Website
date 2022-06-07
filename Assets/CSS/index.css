@@ -130,11 +130,34 @@ h4 {
   margin-bottom: 22px;
   margin-left: 25px;
 }
-.about-content h5{
-  color: white ;
+.about-content h5 {
+  color: white;
   letter-spacing: 2px;
   font-size: 25px;
   margin-bottom: 24px;
   text-transform: capitalize;
   margin-left: 25px;
+}
+.about-content p {
+  margin-left: 25px;
+  color: #e1f5f0;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 47px;
+}
+button {
+  background-color: #f9004d;
+  color: #e1f5f0;
+  padding: 14px 32px;
+  text-decoration: none;
+  border: 3px solid transparent;
+  font-weight: 700;
+  border-radius: 32px;
+  transition: 0.3s;
+}
+button:hover{
+  background-color:transparent ;
+  border: 3px solid #f9004d;
+  cursor: pointer;
 }
